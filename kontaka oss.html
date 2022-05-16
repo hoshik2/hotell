@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Hotel</title>
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <a href="Rum.html"><img src="images/Logo.dreams.hotel1.png" alt="" /></a>
+    
+        <div id="menu-bars" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <a href="Hem.html">Hem</a>
+            <a href="Rum.html">Rum</a>
+            <a href="Restaurang.html">Restaurang</a>
+            <a href="Om oss.html">Om oss</a>        
+            <a href="boka nu.html">Boka nu</a>
+            <a href="kontaka oss.html">contact</a>
+        </nav>
+    
+    </header>
+
+<section class="contact background" id="contact">
+
+    <div class="row">
+
+        <div class="contact-info">
+
+            <div class="box">
+                <h3 class="title">Kontaktuppgifter</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> Hagagatan 2, 64436 Torshälla </p>
+                <p> <i class="fas fa-envelope"></i> Hoshyar1414@gmail.com </p>
+                <p> <i class="fas fa-phone"></i> 0046769137455 </p>
+            </div>
+
+            <div class="box">
+                <h3 class="title">Följa oss</h3>
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            </div>
+
+
+        </div>
+
+        <form  class="contact-form">
+
+            <h3>Kontakta oss</h3>
+
+            <input type="text" placeholder="Namn" class="box">
+            <input type="email" placeholder="e-post" class="box">
+            <input type="number" placeholder="Telefonnummer" class="box">
+            <textarea placeholder="Meddelande" class="box message"   cols="30" rows="10"></textarea>
+
+            <input type="submit"  class="btn" value="Skicka meddelande">
+
+        </form>
+
+    </div>
+
+    <div class="image">
+        <img src="images/bild7.jpg" alt="">
+    </div>
+
+</section>
+
+<script>
+
+    let menu = document.querySelector('#menu-bars');
+    let navbar = document.querySelector('.navbar');
+    
+    menu.addEventListener('click', () =>{
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('nav-toggle');
+    });
+    </script>
+    <div class="footer">
+        Skapad av <span> Hoshyar Mohammad</span> | Dreams Hotel
+    </div>
+</body>
+
+
